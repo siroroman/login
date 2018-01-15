@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Created by Roman Siro on 15.01.18.
+  Copyright © 2018 Roman Siro. All rights reserved.
+*/
+
+
+"login_slogan" = "Login";
+"login_email" = "Email";
+"login_password" = "Password";
+"login_login" = "Login";
+"login_forgotten_password" = "Forgotten password";
+"login_success" = "You have been signed in successfully.";

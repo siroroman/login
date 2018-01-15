@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 9.2\nBuild version 9C40b",
+  "commitish" : "4.0.0",
+  "iOS" : [
+    {
+      "hash" : "113509801a31ce9546f1489a87556e3e91b702fadf1e2b144ceb880915d7b8a4",
+      "name" : "SwiftyJSON"
+    }
+  ]
+}

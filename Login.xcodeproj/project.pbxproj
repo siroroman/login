@@ -7,13 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90175890200D00D300F1E045 /* LoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90175886200D00D100F1E045 /* LoadingVC.swift */; };
+		90175891200D00D300F1E045 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90175887200D00D100F1E045 /* BaseViewController.swift */; };
+		90175892200D00D300F1E045 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90175888200D00D200F1E045 /* GradientView.swift */; };
+		90175894200D00D300F1E045 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017588A200D00D200F1E045 /* Button.swift */; };
+		90175895200D00D300F1E045 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017588B200D00D200F1E045 /* Constants.swift */; };
+		90175896200D00D300F1E045 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017588C200D00D200F1E045 /* Label.swift */; };
+		90175897200D00D300F1E045 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017588D200D00D300F1E045 /* LoadingView.swift */; };
+		90175898200D00D300F1E045 /* BaseContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017588E200D00D300F1E045 /* BaseContentViewController.swift */; };
+		90175899200D00D300F1E045 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017588F200D00D300F1E045 /* BaseNavigationController.swift */; };
+		9017589C200D010300F1E045 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017589A200D010200F1E045 /* ActionButton.swift */; };
+		9017589D200D010300F1E045 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017589B200D010300F1E045 /* TextField.swift */; };
+		9017589F200D016400F1E045 /* SimpleTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017589E200D016300F1E045 /* SimpleTextButton.swift */; };
+		901758A6200D01C800F1E045 /* RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758A2200D01C800F1E045 /* RefreshControl.swift */; };
+		901758A9200D02EA00F1E045 /* KDLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758A8200D02EA00F1E045 /* KDLoadingView.swift */; };
+		901758AB200D032000F1E045 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758AA200D032000F1E045 /* Token.swift */; };
+		901758BA200D1ECD00F1E045 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758B8200D1ECC00F1E045 /* Reachability.swift */; };
+		901758BB200D1ECD00F1E045 /* String+EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758B9200D1ECD00F1E045 /* String+EmailValidation.swift */; };
+		901758BD200D1F4100F1E045 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758BC200D1F4000F1E045 /* UIView+Autolayout.swift */; };
+		901758C4200D204000F1E045 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758C2200D203F00F1E045 /* UIColor+Colors.swift */; };
+		901758C5200D204000F1E045 /* UIColor+Shades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758C3200D204000F1E045 /* UIColor+Shades.swift */; };
+		901758C7200D209A00F1E045 /* UIView+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758C6200D209A00F1E045 /* UIView+Gradient.swift */; };
+		901758C9200D213F00F1E045 /* UIViewController+Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758C8200D213E00F1E045 /* UIViewController+Controllers.swift */; };
+		901758CB200D219200F1E045 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758CA200D219200F1E045 /* UIViewController+Alert.swift */; };
+		901758CD200D233000F1E045 /* UIButton+BackroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758CC200D233000F1E045 /* UIButton+BackroundColor.swift */; };
+		901758CF200D239200F1E045 /* SpinnerAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758CE200D239100F1E045 /* SpinnerAlertController.swift */; };
+		901758D1200D2BB500F1E045 /* UIView+RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901758D0200D2BB500F1E045 /* UIView+RoundCorner.swift */; };
+		901758D7200D2CE100F1E045 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901758B6200D0B2D00F1E045 /* RealmSwift.framework */; };
+		901758D8200D2CE100F1E045 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 901758B6200D0B2D00F1E045 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		901758DC200D2DDF00F1E045 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90175882200CFF7500F1E045 /* Alamofire.framework */; };
+		901758DD200D2DDF00F1E045 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90175882200CFF7500F1E045 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		901758DE200D2DDF00F1E045 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90175883200CFF7500F1E045 /* SwiftyJSON.framework */; };
+		901758DF200D2DDF00F1E045 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90175883200CFF7500F1E045 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		901758E1200D314800F1E045 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 901758E0200D314800F1E045 /* Localizable.strings */; };
+		902298D9200D459400900EB2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902298D7200D454E00900EB2 /* Realm.framework */; };
+		902298DA200D459400900EB2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 902298D7200D454E00900EB2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		90DA9F82200CFB4E00DE2FE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9F81200CFB4E00DE2FE1 /* AppDelegate.swift */; };
-		90DA9F84200CFB4E00DE2FE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9F83200CFB4E00DE2FE1 /* ViewController.swift */; };
 		90DA9F87200CFB4E00DE2FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DA9F85200CFB4E00DE2FE1 /* Main.storyboard */; };
 		90DA9F89200CFB4E00DE2FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DA9F88200CFB4E00DE2FE1 /* Assets.xcassets */; };
 		90DA9F8C200CFB4E00DE2FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DA9F8A200CFB4E00DE2FE1 /* LaunchScreen.storyboard */; };
 		90DA9F97200CFB4E00DE2FE1 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9F96200CFB4E00DE2FE1 /* LoginTests.swift */; };
 		90DA9FA2200CFB4F00DE2FE1 /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9FA1200CFB4F00DE2FE1 /* LoginUITests.swift */; };
+		90DA9FB2200CFBFB00DE2FE1 /* ServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */; };
+		90DA9FB3200CFBFB00DE2FE1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */; };
+		90DA9FB4200CFBFB00DE2FE1 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +70,57 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		901758DB200D2CE100F1E045 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				902298DA200D459400900EB2 /* Realm.framework in Embed Frameworks */,
+				901758DF200D2DDF00F1E045 /* SwiftyJSON.framework in Embed Frameworks */,
+				901758DD200D2DDF00F1E045 /* Alamofire.framework in Embed Frameworks */,
+				901758D8200D2CE100F1E045 /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		90175882200CFF7500F1E045 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		90175883200CFF7500F1E045 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
+		90175886200D00D100F1E045 /* LoadingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingVC.swift; sourceTree = "<group>"; };
+		90175887200D00D100F1E045 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		90175888200D00D200F1E045 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		9017588A200D00D200F1E045 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		9017588B200D00D200F1E045 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9017588C200D00D200F1E045 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		9017588D200D00D300F1E045 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9017588E200D00D300F1E045 /* BaseContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseContentViewController.swift; sourceTree = "<group>"; };
+		9017588F200D00D300F1E045 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		9017589A200D010200F1E045 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		9017589B200D010300F1E045 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		9017589E200D016300F1E045 /* SimpleTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTextButton.swift; sourceTree = "<group>"; };
+		901758A2200D01C800F1E045 /* RefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshControl.swift; sourceTree = "<group>"; };
+		901758A8200D02EA00F1E045 /* KDLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDLoadingView.swift; sourceTree = "<group>"; };
+		901758AA200D032000F1E045 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		901758B6200D0B2D00F1E045 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = SOURCE_ROOT; };
+		901758B8200D1ECC00F1E045 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		901758B9200D1ECD00F1E045 /* String+EmailValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EmailValidation.swift"; sourceTree = "<group>"; };
+		901758BC200D1F4000F1E045 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		901758C2200D203F00F1E045 /* UIColor+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		901758C3200D204000F1E045 /* UIColor+Shades.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Shades.swift"; sourceTree = "<group>"; };
+		901758C6200D209A00F1E045 /* UIView+Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Gradient.swift"; sourceTree = "<group>"; };
+		901758C8200D213E00F1E045 /* UIViewController+Controllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Controllers.swift"; sourceTree = "<group>"; };
+		901758CA200D219200F1E045 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		901758CC200D233000F1E045 /* UIButton+BackroundColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+BackroundColor.swift"; sourceTree = "<group>"; };
+		901758CE200D239100F1E045 /* SpinnerAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerAlertController.swift; sourceTree = "<group>"; };
+		901758D0200D2BB500F1E045 /* UIView+RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorner.swift"; sourceTree = "<group>"; };
+		901758E0200D314800F1E045 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		902298D7200D454E00900EB2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = SOURCE_ROOT; };
 		90DA9F7E200CFB4E00DE2FE1 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DA9F81200CFB4E00DE2FE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90DA9F83200CFB4E00DE2FE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		90DA9F86200CFB4E00DE2FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90DA9F88200CFB4E00DE2FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90DA9F8B200CFB4E00DE2FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +131,9 @@
 		90DA9F9D200CFB4F00DE2FE1 /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DA9FA1200CFB4F00DE2FE1 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		90DA9FA3200CFB4F00DE2FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServerClient.swift; path = /Users/romansiro/Desktop/Login/Login/Models/ServerClient.swift; sourceTree = "<absolute>"; };
+		90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = /Users/romansiro/Desktop/Login/Login/ViewControllers/LoginVC.swift; sourceTree = "<absolute>"; };
+		90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVM.swift; path = /Users/romansiro/Desktop/Login/Login/ViewModels/LoginVM.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +141,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				902298D9200D459400900EB2 /* Realm.framework in Frameworks */,
+				901758DE200D2DDF00F1E045 /* SwiftyJSON.framework in Frameworks */,
+				901758DC200D2DDF00F1E045 /* Alamofire.framework in Frameworks */,
+				901758D7200D2CE100F1E045 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +165,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		901758AC200D04F700F1E045 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				901758B3200D05F700F1E045 /* Storyboards */,
+				901758A8200D02EA00F1E045 /* KDLoadingView.swift */,
+				901758A2200D01C800F1E045 /* RefreshControl.swift */,
+				9017589E200D016300F1E045 /* SimpleTextButton.swift */,
+				9017589A200D010200F1E045 /* ActionButton.swift */,
+				9017589B200D010300F1E045 /* TextField.swift */,
+				9017588A200D00D200F1E045 /* Button.swift */,
+				90175888200D00D200F1E045 /* GradientView.swift */,
+				9017588C200D00D200F1E045 /* Label.swift */,
+				9017588D200D00D300F1E045 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		901758AD200D04FD00F1E045 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		901758AF200D050400F1E045 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */,
+				901758AA200D032000F1E045 /* Token.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		901758B0200D056200F1E045 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				901758B1200D059800F1E045 /* Base */,
+				90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */,
+				90175886200D00D100F1E045 /* LoadingVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		901758B1200D059800F1E045 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9017588E200D00D300F1E045 /* BaseContentViewController.swift */,
+				9017588F200D00D300F1E045 /* BaseNavigationController.swift */,
+				90175887200D00D100F1E045 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		901758B3200D05F700F1E045 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				90DA9F8A200CFB4E00DE2FE1 /* LaunchScreen.storyboard */,
+				90DA9F85200CFB4E00DE2FE1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		901758E2200D32FE00F1E045 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				901758D0200D2BB500F1E045 /* UIView+RoundCorner.swift */,
+				901758CE200D239100F1E045 /* SpinnerAlertController.swift */,
+				901758CC200D233000F1E045 /* UIButton+BackroundColor.swift */,
+				901758CA200D219200F1E045 /* UIViewController+Alert.swift */,
+				901758C8200D213E00F1E045 /* UIViewController+Controllers.swift */,
+				901758C6200D209A00F1E045 /* UIView+Gradient.swift */,
+				901758C2200D203F00F1E045 /* UIColor+Colors.swift */,
+				901758C3200D204000F1E045 /* UIColor+Shades.swift */,
+				901758BC200D1F4000F1E045 /* UIView+Autolayout.swift */,
+				901758B9200D1ECD00F1E045 /* String+EmailValidation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		901758E3200D334100F1E045 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				901758B8200D1ECC00F1E045 /* Reachability.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		90DA9F75200CFB4E00DE2FE1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +276,21 @@
 		90DA9F80200CFB4E00DE2FE1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				90DA9F81200CFB4E00DE2FE1 /* AppDelegate.swift */,
-				90DA9F83200CFB4E00DE2FE1 /* ViewController.swift */,
-				90DA9F85200CFB4E00DE2FE1 /* Main.storyboard */,
+				902298D7200D454E00900EB2 /* Realm.framework */,
+				901758B6200D0B2D00F1E045 /* RealmSwift.framework */,
+				90175882200CFF7500F1E045 /* Alamofire.framework */,
+				90175883200CFF7500F1E045 /* SwiftyJSON.framework */,
+				901758E0200D314800F1E045 /* Localizable.strings */,
 				90DA9F88200CFB4E00DE2FE1 /* Assets.xcassets */,
-				90DA9F8A200CFB4E00DE2FE1 /* LaunchScreen.storyboard */,
+				9017588B200D00D200F1E045 /* Constants.swift */,
+				90DA9F81200CFB4E00DE2FE1 /* AppDelegate.swift */,
 				90DA9F8D200CFB4E00DE2FE1 /* Info.plist */,
+				901758AF200D050400F1E045 /* Models */,
+				901758AD200D04FD00F1E045 /* ViewModels */,
+				901758B0200D056200F1E045 /* ViewControllers */,
+				901758AC200D04F700F1E045 /* Views */,
+				901758E2200D32FE00F1E045 /* Extensions */,
+				901758E3200D334100F1E045 /* Other */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -135,6 +323,7 @@
 				90DA9F7A200CFB4E00DE2FE1 /* Sources */,
 				90DA9F7B200CFB4E00DE2FE1 /* Frameworks */,
 				90DA9F7C200CFB4E00DE2FE1 /* Resources */,
+				901758DB200D2CE100F1E045 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DA9F8C200CFB4E00DE2FE1 /* LaunchScreen.storyboard in Resources */,
+				901758E1200D314800F1E045 /* Localizable.strings in Resources */,
 				90DA9F89200CFB4E00DE2FE1 /* Assets.xcassets in Resources */,
 				90DA9F87200CFB4E00DE2FE1 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +449,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90DA9F84200CFB4E00DE2FE1 /* ViewController.swift in Sources */,
+				90DA9FB4200CFBFB00DE2FE1 /* LoginVM.swift in Sources */,
+				901758CD200D233000F1E045 /* UIButton+BackroundColor.swift in Sources */,
+				901758C5200D204000F1E045 /* UIColor+Shades.swift in Sources */,
 				90DA9F82200CFB4E00DE2FE1 /* AppDelegate.swift in Sources */,
+				901758D1200D2BB500F1E045 /* UIView+RoundCorner.swift in Sources */,
+				9017589F200D016400F1E045 /* SimpleTextButton.swift in Sources */,
+				901758C9200D213F00F1E045 /* UIViewController+Controllers.swift in Sources */,
+				901758BB200D1ECD00F1E045 /* String+EmailValidation.swift in Sources */,
+				901758CF200D239200F1E045 /* SpinnerAlertController.swift in Sources */,
+				90DA9FB2200CFBFB00DE2FE1 /* ServerClient.swift in Sources */,
+				9017589D200D010300F1E045 /* TextField.swift in Sources */,
+				90DA9FB3200CFBFB00DE2FE1 /* LoginVC.swift in Sources */,
+				90175898200D00D300F1E045 /* BaseContentViewController.swift in Sources */,
+				90175896200D00D300F1E045 /* Label.swift in Sources */,
+				901758C7200D209A00F1E045 /* UIView+Gradient.swift in Sources */,
+				90175897200D00D300F1E045 /* LoadingView.swift in Sources */,
+				90175892200D00D300F1E045 /* GradientView.swift in Sources */,
+				901758BD200D1F4100F1E045 /* UIView+Autolayout.swift in Sources */,
+				90175899200D00D300F1E045 /* BaseNavigationController.swift in Sources */,
+				901758AB200D032000F1E045 /* Token.swift in Sources */,
+				901758A9200D02EA00F1E045 /* KDLoadingView.swift in Sources */,
+				90175895200D00D300F1E045 /* Constants.swift in Sources */,
+				901758CB200D219200F1E045 /* UIViewController+Alert.swift in Sources */,
+				901758C4200D204000F1E045 /* UIColor+Colors.swift in Sources */,
+				90175890200D00D300F1E045 /* LoadingVC.swift in Sources */,
+				90175894200D00D300F1E045 /* Button.swift in Sources */,
+				90175891200D00D300F1E045 /* BaseViewController.swift in Sources */,
+				9017589C200D010300F1E045 /* ActionButton.swift in Sources */,
+				901758BA200D1ECD00F1E045 /* Reachability.swift in Sources */,
+				901758A6200D01C800F1E045 /* RefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +646,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E49T3B4D93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Skoumal.Login;
@@ -443,6 +665,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E49T3B4D93;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Skoumal.Login;

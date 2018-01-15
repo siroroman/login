@@ -1,7 +1,5 @@
 //
 //  AppDelegate.swift
-//  Login
-//
 //  Created by Roman Siro on 15.01.18.
 //  Copyright © 2018 Roman Siro. All rights reserved.
 //
@@ -12,7 +10,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
