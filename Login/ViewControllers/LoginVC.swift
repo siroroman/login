@@ -68,10 +68,10 @@ class LoginVC: BaseContentViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        let green  = Constants.Colors.turquoise
-        let blue = Constants.Colors.blue
+        let orange  = Constants.Colors.orange
+        let red = Constants.Colors.red
         
-        gradientView.fillWithGradient(startColor: green, endColor: blue, startPoint: CGPoint(x:0, y:0), endPoint: CGPoint(x:1, y:1))
+        gradientView.fillWithGradient(startColor: orange, endColor: red, startPoint: CGPoint(x:0, y:0), endPoint: CGPoint(x:1, y:1))
     }
     
     @IBAction func loginButtonPressed(_ sender: Any) {
