@@ -5,7 +5,7 @@ platform :ios do
   desc "Description of what the lane does"
     lane :alpha do
   	build_app(scheme: "Alpha",
-        project: "Login.xcproj",
+        project: "Login.xcodeproj",
         include_bitcode: false)
     end
 end
