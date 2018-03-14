@@ -4,7 +4,6 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
     lane :alpha do
-        match appstore --readonly
   	build_app(scheme: "Alpha",
         project: "Login.xcodeproj",
         include_bitcode: false)
