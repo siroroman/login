@@ -9,7 +9,7 @@ platform :ios do
 	git_url: "https://Roman_Siro@bitbucket.org/Roman_Siro/login_certificates.git",
         username: "jiri.sulc@cortex.cz",
         readonly: true,
-        type: "appstore"),  
+        type: "appstore")  
 
   	build_app(scheme: "Alpha",
         project: "Login.xcodeproj",
