@@ -1,0 +1,7 @@
+git_url("https://Roman_Siro@bitbucket.org/Roman_Siro/login_certificates.git")
+type("appstore")
+app_identifier(["cz.cortex.StoreLocator"])
+username("jiri.sulc@cortex.cz")
+readonly(true)
+
+
