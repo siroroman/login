@@ -7,9 +7,9 @@ platform :ios do
         match(
 	app_identifier: "cz.cortex.StoreLocator",
 	git_url: "https://Roman_Siro@bitbucket.org/Roman_Siro/login_certificates.git",
-        username "jiri.sulc@cortex.cz",
-        readonly true,
-        type "appstore"),  
+        username: "jiri.sulc@cortex.cz",
+        readonly: true,
+        type: "appstore"),  
 
   	build_app(scheme: "Alpha",
         project: "Login.xcodeproj",
