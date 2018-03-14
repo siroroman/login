@@ -6,7 +6,7 @@ platform :ios do
     lane :alpha do
         match(
 	app_identifier: "cz.cortex.StoreLocator",
-	git_url: "https://Roman_Siro@bitbucket.org/Roman_Siro/login_certificates.git",
+	git_url: "https://Roman_Siro@bitbucket.org/Roman_Siro/login_certificates.git",
         username: "jiri.sulc@cortex.cz",
         readonly: true,
         type: "appstore")  
