@@ -131,9 +131,9 @@
 		90DA9F9D200CFB4F00DE2FE1 /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DA9FA1200CFB4F00DE2FE1 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		90DA9FA3200CFB4F00DE2FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServerClient.swift; path = /Users/romansiro/Desktop/Login/Login/Models/ServerClient.swift; sourceTree = "<absolute>"; };
-		90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = /Users/romansiro/Desktop/Login/Login/ViewControllers/LoginVC.swift; sourceTree = "<absolute>"; };
-		90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVM.swift; path = /Users/romansiro/Desktop/Login/Login/ViewModels/LoginVM.swift; sourceTree = "<absolute>"; };
+		90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServerClient.swift; path = /Users/romansiro/Desktop/Login/Login/ServerClient.swift; sourceTree = "<absolute>"; };
+		90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = /Users/romansiro/Desktop/Login/Login/LoginVC.swift; sourceTree = "<absolute>"; };
+		90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVM.swift; path = /Users/romansiro/Desktop/Login/Login/LoginVM.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +185,6 @@
 		901758AD200D04FD00F1E045 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -193,8 +192,6 @@
 		901758AF200D050400F1E045 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */,
-				901758AA200D032000F1E045 /* Token.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				901758B1200D059800F1E045 /* Base */,
-				90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */,
 				90175886200D00D100F1E045 /* LoadingVC.swift */,
 			);
 			path = ViewControllers;
@@ -284,6 +280,10 @@
 				90DA9F88200CFB4E00DE2FE1 /* Assets.xcassets */,
 				9017588B200D00D200F1E045 /* Constants.swift */,
 				90DA9F81200CFB4E00DE2FE1 /* AppDelegate.swift */,
+				90DA9FAF200CFBFB00DE2FE1 /* ServerClient.swift */,
+				90DA9FB0200CFBFB00DE2FE1 /* LoginVC.swift */,
+				901758AA200D032000F1E045 /* Token.swift */,
+				90DA9FB1200CFBFB00DE2FE1 /* LoginVM.swift */,
 				90DA9F8D200CFB4E00DE2FE1 /* Info.plist */,
 				901758AF200D050400F1E045 /* Models */,
 				901758AD200D04FD00F1E045 /* ViewModels */,
